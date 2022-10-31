@@ -12,6 +12,20 @@ body {
   margin-left: 0;
 }
 
+.features{
+  text-align: center;
+  margin: 100px auto;
+}
+
+.feature-icons{
+ color:rgb(207, 25, 91);
+ margin-bottom: 15px;
+}
+
+.feature-icons:hover{
+  color: rgb(134, 8, 54);
+}
+
 h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
