@@ -15,7 +15,7 @@ body {
 }
 
 .col{
-  padding: 0px 45px;
+  padding: 0px 15px;
 }
 
 .download-button {
@@ -24,9 +24,15 @@ body {
   margin-left: 0;
 }
 
+#features,.iphoneimage{
+  position: relative;
+}
+
 #features{
   text-align: center;
   padding: 7%;
+  background-color: whitesmoke;
+  z-index: 1;
 }
 
 .feature-icons{
@@ -51,10 +57,11 @@ h1 {
 .iphoneimage {
   transform: rotate(25deg);
   position: relative;
-  top: 30px;
+  top: 160px;
+  left: 60px;
   width: 60%;
-  margin-bottom: 50px;
 }
+
 
 h1 {
   padding-bottom: 1rem;
@@ -72,6 +79,7 @@ h3{
   font-family: "Montserrat-Black", sans-serif;
   font-weight: bold;
 }
+
 .navbar {
   padding-bottom: 4.5rem;
 }
@@ -104,7 +112,9 @@ h3{
 
 #pricing{
   text-align: center;
-  padding: 7%; 
+  padding: 6% 10%; 
+  background-color: whitesmoke;
+  /* using whitesmoke so that much less strain for the eye  */
 }
 
 .pricing-cards{
