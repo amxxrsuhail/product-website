@@ -180,6 +180,19 @@ color: gray;
 @media  (max-width: 1176px)
 {
 
+.container-fluid{
+  padding: 70px 70px 0px 70px;
+}  
+
+.download-button {
+    margin: 8px;
+    margin-left: 5px;
+}
+  
+.footer-icon{
+  margin: 0 25px;
+}
+
 h1{
   margin-bottom: 30px;
 }
@@ -190,15 +203,6 @@ h1{
   top: 160px;
   left: 10px;
   width: 60%;
-}
-
-.download-button {
-  margin: 8px;
-  margin-left: 5px;
-}
-
-.footer-icon{
-  margin: 0 25px;
 }
 
 .press-images{
