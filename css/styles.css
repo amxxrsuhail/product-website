@@ -1,7 +1,23 @@
+/* ----------------------------------sections----------------------------- */
+
+.coloured-section{
+  background-color: rgb(207, 25, 91);
+  color: rgb(128, 31, 66);
+}
+
+.white-section{
+  background-color: whitesmoke;
+}
 
 /*-------------------------------- titlesection--------------------------- */
+
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#title{
+  text-align: left;
 }
 
 .container-fluid {
@@ -14,8 +30,7 @@ body {
   margin-left: 0;
 }
 
-h1 {
-  font-family: "Montserrat-Black", sans-serif;
+.title-heading {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -23,7 +38,6 @@ h1 {
 }
 
 h2{
-  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.5;
@@ -31,7 +45,6 @@ h2{
 }
 
 h3{
-  font-family: "Montserrat-Black", sans-serif;
   font-weight: bold;
 }
 
@@ -62,11 +75,6 @@ h3{
   font-weight: lighter;
 }
 
-#title {
-  background-color: rgb(207, 25, 91);
-  color: rgb(128, 31, 66);
-}
-
 /* -----------------------------feature-section------------------------- */
 
 .column-features{
@@ -74,9 +82,7 @@ h3{
 }
 
 #features{
-  text-align: center;
   padding: 7%;
-  background-color: whitesmoke;
   position: relative;
   z-index: 1;
 }
@@ -94,27 +100,19 @@ h3{
   color: rgb(145, 137, 137);
 }
 
-/* ----------------------------testimonal-section---------------------- */
+/* ----------------------------testimonals and press section---------------------- */
 
 .carousel-item{
   padding: 7% 15%;
 }
 
 #press{
-  background-color:rgb(207, 25, 91) ;
-  text-align: center;
   padding-bottom: 30px;
 }
 
 .press-images{
   width: 15%;
   margin: 20px 20px 50px;
-}
-
-#testimonials{
-  text-align: center;
-  background-color:rgb(207, 25, 91) ;
-  color:rgb(128, 31, 66);
 }
 
 .testimonial-image{
@@ -129,9 +127,7 @@ h3{
 }
 
 #pricing{
-  text-align: center;
   padding: 6% 10%; 
-  background-color: whitesmoke;
   /* using whitesmoke so that much less strain for the eye  */
 }
 
@@ -144,11 +140,10 @@ h3{
 }
 
 /* ------------------------------footer section------------------------------- */
+
 #cta{
-  background-color: rgb(207, 25, 91);
   padding-top: 30px;
   padding-bottom: 120px;
-  text-align: center;
 }
 
 .copyright{
@@ -157,8 +152,6 @@ h3{
 }
 
 .footersection{
-  color:rgb(128, 31, 66);
-  font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
@@ -166,10 +159,8 @@ h3{
 }
 
 #footer{
-  text-align: center;
   padding: 80px 0 50px;
   color: gray;
-  background-color: whitesmoke;
 }
 
 .footer-icon:hover{
@@ -189,8 +180,8 @@ color: gray;
 @media  (max-width: 1176px)
 {
 
-#title{
-text-align: center;
+h1{
+  margin-bottom: 30px;
 }
 
 .iphoneimage {
@@ -201,10 +192,6 @@ text-align: center;
   width: 60%;
 }
 
-h1{
-  margin-bottom: 30px;
-}
-
 .download-button {
   margin: 8px;
   margin-left: 5px;
@@ -213,4 +200,15 @@ h1{
 .footer-icon{
   margin: 0 25px;
 }
+
+.press-images{
+  width: 35%;
+  margin: 15px;
+padding-top: 10px;
+}
+
+#title{
+  text-align: center;
+}
+
 }
